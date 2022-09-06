@@ -1,0 +1,72 @@
+﻿.carousel .carousel-indicators button {
+  max-width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.bg-cinza {
+  background-color: gray;
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+  #card_respon2 {
+    display: none;
+  }
+
+  #card_respon {
+    display: none;
+  }
+
+  .card_section {
+    display: none;
+  }
+
+  .card_section2 {
+    display: none;
+  }
+
+  .section-carousel{
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #card_respon {
+    display: none;
+  }
+
+  .card_section {
+    display: none;
+  }
+
+  .section-carousel{
+    width: 55% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #card_respon2 {
+    display: none;
+  }
+
+  #card_respon {
+    display: none;
+  }
+
+  #card_respon3 {
+    display: none;
+  }
+
+  .card_section {
+    display: none;
+  }
+
+  .respons-section {
+    width: 100% !important;
+  }
+
+  .section-carousel{
+    width: 75% !important;
+  }
+}
